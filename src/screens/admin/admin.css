@@ -1,0 +1,22 @@
+.patient-list-container {
+    padding: 20px;
+  }
+  
+  .patient-list-container table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .patient-list-container th, .patient-list-container td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .patient-list-container button {
+    margin: 0 5px;
+  }
+  
+  .modal-header {    
+    padding: 10px;
+  }
+

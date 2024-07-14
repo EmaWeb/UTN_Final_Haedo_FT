@@ -1,0 +1,162 @@
+/* pacientes.css */
+
+.paciente-screen {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.paciente-info {
+  margin-bottom: 20px;
+}
+
+.paciente-info button {  
+  color: rgb(241, 241, 241);
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.paciente-info button:hover  {
+  background-color: #018648;
+}
+
+.paciente-info form {
+  margin-top: 20px;
+}
+
+.paciente-info input,
+.paciente-info select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.paciente-info label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.paciente-info .error-text {
+  color: #dc3545;
+  margin-bottom: 10px;
+}
+
+
+
+.detalles-paciente {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detalles-paciente h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.detalles-paciente p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.detalles-paciente strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Ejemplo de estilos específicos para cada dato del paciente */
+.detalles-paciente .dato-paciente {
+  display: flex;
+  align-items: center;
+}
+
+.detalles-paciente .dato-paciente .label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.detalles-paciente .dato-paciente .valor {
+  flex-grow: 1;
+}
+
+/* Estilo para el sexo específico */
+.detalles-paciente .dato-paciente .sexo {
+  text-transform: capitalize; /* Para mostrar "Masculino" o "Femenino" correctamente */
+}
+/* General modal styling */
+.modal-content {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 360px;
+  margin: auto;
+}
+
+.modal-header {
+  background-color: #17a2b8;
+  color: white;
+  padding: 15px;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 8px;
+  background-color: #f7f9fc;
+}
+
+.paciente-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.paciente-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.paciente-form label {
+  
+  color: #333;
+  font-weight: bold;
+}
+
+.paciente-form input,
+.paciente-form select {
+  padding: 2px;
+  margin-top: 1px;
+  border-radius: 5px;
+  border: 1px solid;
+
+}
+
+.paciente-form button {
+  margin-top: 10px;
+}
